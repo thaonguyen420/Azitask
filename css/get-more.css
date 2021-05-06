@@ -1,0 +1,49 @@
+section.get-more h5.card-title {
+    padding-bottom: 3rem;
+    margin: 0;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+section.get-more .search {
+    height: 41px;
+}
+
+section.get-more button.click {
+    background: #00104F;
+    color: white;
+}
+
+section.get-more .box-number.mobile {
+    display: none;
+}
+
+
+/* ANCHOR 768 */
+
+@media(max-width:768px) {
+    section.get-more {
+        transform: translateY(-10%);
+    }
+    section.get-more .box-number {
+        display: none;
+    }
+    section.get-more .box-number.mobile {
+        display: flex;
+    }
+    section.get-more .box-number.mobile .search,
+    section.get-more .box-number.mobile .box-button.mobile button.click {
+        border-radius: 0px;
+        font-size: 1.2rem;
+    }
+}
+
+
+/* ANCHOR 281 */
+
+@media(max-width:281px) {
+    section.get-more .box-number.mobile .search,
+    section.get-more .box-number.mobile .box-button.mobile button.click {
+        font-size: 1rem;
+    }
+}

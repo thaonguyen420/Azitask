@@ -1,0 +1,35 @@
+.cleaning_services {
+  background: white;
+}
+
+.cleaning_services .info_services .item-list {
+  padding-top: 4px;
+}
+
+.cleaning_services .info_services .item-text span {
+  color: #2A42A7;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.box-bar_top {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box-bar_top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid rgba(210, 208, 208, 0.25);
+}
+
+@media (max-width: 768px) {
+  .cleaning_services {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=cleaning_service.css.map */

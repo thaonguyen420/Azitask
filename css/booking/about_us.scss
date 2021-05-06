@@ -1,0 +1,31 @@
+.about_us {
+    .box-rate_us {
+        padding-top: 10px;
+        padding-right: 10px;
+        .box-left {
+            display: flex;
+            justify-content: flex-start;
+            .box-icon {
+                .icon-star {
+                    font-size: 24px;
+                }
+            }
+            .box-content {
+                color: #2A42A7;
+                p {
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                span {
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .box-right {
+            .icon-right {
+                font-size: 15px;
+            }
+        }
+    }
+}

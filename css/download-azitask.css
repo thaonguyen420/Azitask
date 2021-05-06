@@ -1,0 +1,84 @@
+section.download-azitask {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+section.download-azitask h1 {
+    margin-bottom: 5rem;
+}
+
+section.download-azitask .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section.download-azitask .d-flex .note-app {
+    width: 66%;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-bottom: 33px;
+    padding: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+section.download-azitask nav.list .item-list {
+    list-style: none;
+}
+
+section.download-azitask nav.list .item-list .title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+section.download-azitask nav.list .item-list .title:not(:last-child) {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+section.download-azitask nav.list .item-list .title p.note {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
+
+
+/* ANCHOR 1200 */
+
+@media(max-width:1200px) {
+    section.download-azitask nav.list .item-list .title {
+        font-size: 16px;
+    }
+    section.download-azitask nav.list .item-list .title p.note {
+        font-size: 14px;
+    }
+}
+
+
+/* ANCHOR 995 */
+
+@media(max-width:995px) {
+    section.download-azitask,
+    section.world {
+        display: none;
+    }
+}
+
+
+/* ANCHOR 768 */
+
+@media(max-width:768px) {
+    section.download-azitask {
+        display: none;
+    }
+}

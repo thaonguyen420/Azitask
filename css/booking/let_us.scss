@@ -1,0 +1,36 @@
+.let_us {
+    .box-text {
+        display: flex;
+        padding: 6px 14px;
+        border: 1px solid #d6d6d6;
+        border-radius: 999px;
+        span {
+            font-size: 11px;
+            text-align: center;
+        }
+    }
+    .box-border {
+        border: 1px solid #d6d6d6;
+    }
+    p.title-small {
+        font-size: 15px;
+        font-weight: 400;
+        color: #727272;
+    }
+    .note-ms {
+        width: 100%;
+        border: .25px solid #d6d6d6;
+    }
+}
+
+@media(max-width:1025px) {
+    .let_us .box-text {
+        padding: 4px 10px;
+    }
+}
+
+@media (max-width:361px) {
+    .let_us .box-text {
+        padding: 6px 7px;
+    }
+}

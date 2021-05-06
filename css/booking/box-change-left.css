@@ -1,0 +1,39 @@
+.box-change-left {
+  background: #f8f8f8;
+  padding: 15px;
+  -webkit-box-shadow: 1px -1px 6px 0px #b6b6b6f7;
+          box-shadow: 1px -1px 6px 0px #b6b6b6f7;
+  display: none;
+}
+
+.box-link {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.owl-two.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none !important;
+}
+
+.owl-two.owl-theme .owl-nav,
+.owl-two.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .box-change-left {
+    display: block;
+  }
+}
+
+@media (max-width: 321px) {
+  .box-link {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=box-change-left.css.map */

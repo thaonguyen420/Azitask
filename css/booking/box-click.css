@@ -1,0 +1,37 @@
+section.box-click {
+  border: .25px solid gray;
+}
+
+section.box-click h2.title {
+  font-size: 19px;
+  font-weight: 500;
+  color: #2A42A7;
+  padding: 10px 0px;
+}
+
+section.box-click .center-col {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+section.box-click .center-col .icon-times {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+section.box-click span.number,
+section.box-click .icon-star {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+
+section.box-click span.number {
+  color: #2A42A7;
+}
+
+section.box-click .icon-star {
+  color: yellow;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=box-click.css.map */

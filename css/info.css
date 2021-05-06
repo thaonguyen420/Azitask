@@ -1,0 +1,153 @@
+/* section.info {
+    padding-bottom: 3rem;
+} */
+
+section.info .item img {
+    transform: scale(1);
+    transition: .4s all;
+}
+
+section.info img:hover {
+    transform: scale(1.1);
+    transition: .4s all;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.slide-info .item img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+.slide-info img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.slide-info .owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.slide-info .owl-theme .owl-nav button span {
+    font-size: 32px;
+    color: gray;
+}
+
+.slide-info .owl-theme .owl-nav button.owl-next,
+.slide-info .owl-theme .owl-nav button.owl-prev {
+    background: white;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    -webkit-transform: translateY(-70%);
+    transform: translateY(-70%);
+    -webkit-box-shadow: -2px 1px 8px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: -2px 1px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slide-info .owl-theme .owl-nav button.owl-prev {
+    position: absolute;
+    left: -2%;
+}
+
+.slide-info .owl-theme .owl-nav button.owl-next {
+    position: absolute;
+    right: -2%;
+}
+
+
+/* .slide-info .owl-dots {
+    opacity: 0;
+    visibility: hidden;
+} */
+
+.slide-info .owl-theme .owl-nav [class*=owl-]:hover {
+    color: black;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: 'FontAwesome';
+}
+
+.slick-next:before {
+    content: "\f054";
+}
+
+.slick-prev:before {
+    content: "\f053";
+}
+
+.button {
+    background: #3498db;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+}
+
+.buttons {
+    padding: 0 20px 20px;
+    margin-bottom: 10px;
+}
+
+.buttons .button {
+    background: #fff;
+    color: #3498db;
+    float: left;
+    margin: 5px;
+}
+
+.slick-slide .image {
+    padding: 10px;
+}
+
+.slick-slide img {
+    border-right: 10px solid #fff;
+    display: block;
+    width: 100%;
+}
+
+.slick-slide img.slick-loading {
+    border: 0;
+}
+
+.slick-slider {
+    margin: 30px auto 50px;
+}
+
+.slide-info .owl-dots {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slide-info .owl-two.owl-theme .owl-nav,
+.slide-info .owl-two.owl-theme .owl-dots,
+.slide-info .owl-theme .owl-nav {
+    display: block;
+}
+
+
+/*# sourceMappingURL=info.css.map */

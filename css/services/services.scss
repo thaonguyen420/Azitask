@@ -1,0 +1,144 @@
+section.services .btn-card {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: white;
+    color: #2A42A7;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+section.services .box-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+section.services .box-img img {
+    width: 90%;
+}
+
+section.services .box-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section.services .w-30 {
+    width: 30%;
+}
+
+section.services .w-20 {
+    width: auto;
+}
+
+section.services .w-20.box-button {
+    width: 15%;
+}
+
+section.services .w-60 {
+    width: 60%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (max-width: 1025px) {
+    section.services .btn-card {
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width:768px) {
+    .box-care.box-care-right .btn-card {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    section.services .btn-card {
+        font-size: 1rem;
+    }
+    section.services .w-60 {
+        width: 50%;
+    }
+    section.services .box-img img {
+        width: 85%;
+    }
+}
+
+@media(min-width:416px) {
+    section.services .btn-card.box-mobile {
+        display: none;
+    }
+}
+
+@media(max-width:416px) {
+    section.services .btn-card {
+        font-size: 1.5rem;
+    }
+    section.services .w-60 {
+        width: 70%;
+        margin-left: 6%;
+    }
+    section.services .box-img {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    section.services .box-img img {
+        width: 95%;
+    }
+    section.services .w-20 {
+        width: 25%;
+    }
+    section.services .w-20.box-service.box-button {
+        display: none;
+    }
+    section.services .box-img img {
+        width: 100%;
+    }
+    section.services .w-30 {
+        width: 40%;
+    }
+}
+
+@media(max-width:376px) {
+    section.services .w-30 {
+        width: 50%;
+    }
+    section.services .w-20 {
+        width: 30%;
+    }
+}
+
+@media(max-width:361px) {
+    section.services .btn-card {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:321px) {
+    section.services .box-img img {
+        width: 88%;
+    }
+    section.services .w-20 {
+        width: 40%;
+    }
+    section.services .w-60 {
+        width: 87%;
+        margin-left: 4%;
+    }
+    section.services p.text,
+    section.services p.note--text {
+        font-size: 1.2rem;
+    }
+    section.services .btn-card {
+        font-size: 1.2rem;
+    }
+}

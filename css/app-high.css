@@ -1,0 +1,95 @@
+section.app-high {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section.app-high h1.text-blue {
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+section.app-high .img-app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section.app-high p.note_text {
+    text-align: justify;
+}
+
+section.app-high .box-item .arrow {
+    height: calc(100% - 72px);
+    display: block;
+    max-width: 2px;
+}
+
+
+/* ANCHOR 768 */
+
+@media(max-width:768px) {
+    section.app-high .arrow {
+        height: calc(100% - 39px);
+    }
+}
+
+
+/* ANCHOR 415 */
+
+@media(max-width:415px) {
+    section.app-high h4.title {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    section.app-high p.note_text {
+        font-size: 15px;
+        font-weight: normal;
+    }
+}
+
+
+/* ANCHOR 321 */
+
+@media(max-width:321px) {
+    section.app-high p.note_text {
+        font-size: 12px;
+    }
+    section.app-high h4.title {
+        font-size: 14px;
+    }
+}
+
+
+/* ANCHOR 281 */
+
+@media(max-width:281px) {
+    section.app-high p.note_text {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    section.app-high h4.title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 401px) and (min-width: 280px) {
+    section.popular h5.card-title {
+        font-size: 11px;
+        margin-bottom: 0.55rem;
+    }
+    section.popular p.card-text {
+        font-size: 1rem;
+    }
+}
+
+
+/*# sourceMappingURL=app-high.css.map */

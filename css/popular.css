@@ -1,0 +1,27 @@
+section.popular {
+    padding-bottom: 1rem;
+}
+
+section.popular .card {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    /* margin-bottom: 3rem; */
+    border: 0.25px solid rgba(0, 0, 0, 0.125);
+}
+
+section.popular .card img {
+    height: auto;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+section.popular .card:hover {
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+
+/*# sourceMappingURL=popular.css.map */

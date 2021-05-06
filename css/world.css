@@ -1,0 +1,28 @@
+section.world {
+  background: #F7F7F7;
+  padding: 70px 0px;
+}
+
+section.world .col-md-3.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.world .col-md-3 ul.place li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: 600;
+  padding: 5px 0px;
+}
+/*# sourceMappingURL=world.css.map */

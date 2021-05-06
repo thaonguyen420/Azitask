@@ -1,0 +1,80 @@
+section.box-right {
+  border: 2px solid #D6D6D6;
+}
+
+section.box-right .box-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.box-right h2.title {
+  color: #8E8E93;
+}
+
+section.box-right span.number {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+
+section.box-right span.number.number-right {
+  margin-right: 1rem;
+}
+
+section.box-right span.text {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+section.box-right span.text-note {
+  font-size: 1.7rem;
+  color: #8E8E93;
+}
+
+section.box-right span.text--details {
+  font-size: 1.5rem;
+}
+
+section.box-right .col-ul:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+section.box-right ul.toc {
+  margin-bottom: 0;
+}
+
+section.box-right .toc li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+section.box-right .toc li .title {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+section.box-right .toc li .chapter {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+section.box-right .toc li::after {
+  content: "";
+  border-bottom: 1px dotted;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+/*# sourceMappingURL=box-right.css.map */

@@ -1,0 +1,29 @@
+/* section.the-media h1.only {
+    margin-bottom: 3rem;
+} */
+
+section.the-media .owl-theme .owl-nav button.owl-next,
+section.the-media .owl-theme .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background: gray;
+    color: white;
+}
+
+section.the-media .owl-theme .owl-nav button span {
+    color: white;
+    font-size: 16px;
+}
+
+section.the-media .owl-theme .owl-stage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/*# sourceMappingURL=the-media.css.map */

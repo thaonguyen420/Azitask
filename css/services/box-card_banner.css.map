@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,OAAO,AAAA,gBAAgB,CAAC,SAAS,CAAC;IAC9B,YAAY,EAAE,IAAI;IAClB,aAAa,EAAE,IAAI;GACtB;EACD,AAAA,OAAO,AAAA,gBAAgB,CAAC,SAAS,CAAC,UAAU,CAAC,EAAE,AAAA,OAAO,CAAC;IACnD,SAAS,EAAE,MAAM;GACpB",
+    "sources": [
+        "box-card_banner.scss"
+    ],
+    "names": [],
+    "file": "box-card_banner.css"
+}

@@ -1,0 +1,37 @@
+.customer-service {
+  margin-top: 1rem;
+}
+
+.customer-service .box-member {
+  margin: 0rem;
+  display: block;
+  border-top: 1px solid #D6D6D6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.customer-service .box-member .box-image {
+  width: auto;
+}
+
+.customer-service .box-member .box-content {
+  width: auto;
+}
+
+.customer-service .box-member .box--image {
+  background: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.customer-service .box-member .box-rate {
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+}
+
+.customer-service .box-member .box-rate .icon--star {
+  color: yellow;
+}
+/*# sourceMappingURL=customer_service.css.map */

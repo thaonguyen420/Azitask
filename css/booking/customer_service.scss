@@ -1,0 +1,30 @@
+.customer-service {
+    margin-top: 1rem;
+    .box-member {
+        margin: 0rem;
+        display: block;
+        border-top: 1px solid #D6D6D6;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .box-image {
+            width: auto;
+        }
+        .box-content {
+            width: auto;
+        }
+        .box--image {
+            background: none;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .box-rate {
+            font-size: 15px;
+            width: auto;
+            text-align: left;
+            .icon--star {
+                color: yellow;
+            }
+        }
+    }
+}

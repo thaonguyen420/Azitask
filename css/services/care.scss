@@ -1,0 +1,58 @@
+section.care {
+    .w-50 {
+        float: left;
+        color: #2A42A7;
+    }
+    .w-50.rate {
+        span {
+            font-size: 1.7rem;
+        }
+        svg {
+            font-size: 1.7rem;
+            margin-right: 1rem;
+        }
+    }
+    .w-50.note {
+        p {
+            font-size: 1.3rem;
+            color: #727272;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+    }
+    .box-care {
+        display: flex;
+        align-items: flex-end;
+    }
+    .box-img {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 541px) {
+    section.care .w-50.note p {
+        margin-top: 0.5rem;
+    }
+    section.care .box-care.box-card--left {
+        display: none;
+    }
+    section.care .box-care.box-care-right .btn-card {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 416px) {
+    section.care .w-50.note p {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:361px) {
+    section.care .w-50.note p {
+        font-size: 1rem;
+    }
+}

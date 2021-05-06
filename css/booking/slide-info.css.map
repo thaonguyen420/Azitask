@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,KAAK,CAAC;EACF,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "slide-info.scss"
+    ],
+    "names": [],
+    "file": "slide-info.css"
+}

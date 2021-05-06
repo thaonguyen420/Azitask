@@ -1,0 +1,70 @@
+section.comment .carousel-indicators li,
+section.news .carousel-indicators li {
+    width: 1.1rem;
+    border-radius: 50%;
+    height: 10px;
+    margin: 0px 7px;
+    background-color: gray;
+}
+
+section.comment .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+section.comment h5.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+section.comment .carousel-indicators {
+    position: absolute;
+    right: 39%;
+    bottom: 15%;
+    -webkit-transform: translateX(125%);
+    transform: translateX(125%);
+}
+
+section.comment span.author {
+    font-size: 19px;
+    margin-top: 36px;
+    margin-bottom: 77px;
+}
+
+
+/* ANCHOR 1200 */
+
+@media (max-width:1200px) {
+    section.comment h5.title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    section.comment span.author {
+        font-size: 19px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+}
+
+
+/* ANCHOR 768 */
+
+
+/* ANCHOR 542 */
+
+@media(max-width:542px) {
+    section.comment .carousel-indicators {
+        transform: translateX(0%);
+        right: 0;
+        bottom: 0;
+    }
+}

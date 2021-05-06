@@ -1,0 +1,32 @@
+.download-mobile {
+  bottom: -1rem;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  background: #011253eb;
+}
+
+.download-mobile .icon-x svg {
+  font-size: 2rem;
+}
+
+.download-mobile .icon-star svg {
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+.download-mobile h5 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.download-mobile .col-p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.download-mobile button {
+  background: white;
+  width: 100%;
+  font-weight: bold;
+}
+/*# sourceMappingURL=download-moblie.css.map */

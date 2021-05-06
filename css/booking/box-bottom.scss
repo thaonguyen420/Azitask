@@ -1,0 +1,24 @@
+.item-bottom {
+    width: 100%;
+    background: #2A42A7;
+    span {
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        // &.number_box {
+        //     font-weight: 500;
+        //     font-size: 17px;
+        // }
+        &.text {
+            margin-left: 10px;
+        }
+    }
+    .item-right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .icon-right {
+            margin-right: 10px;
+        }
+    }
+}

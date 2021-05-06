@@ -1,0 +1,31 @@
+.item-bottom {
+  width: 100%;
+  background: #2A42A7;
+}
+
+.item-bottom span {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.item-bottom span.text {
+  margin-left: 10px;
+}
+
+.item-bottom .item-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-bottom .item-right .icon-right {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=box-bottom.css.map */

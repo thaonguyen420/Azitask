@@ -1,0 +1,38 @@
+section.box-click {
+    border: .25px solid gray;
+    h2.title {
+        font-size: 19px;
+        font-weight: 500;
+        color: #2A42A7;
+        padding: 10px 0px;
+    }
+    .center-col {
+        justify-content: flex-end;
+        .icon-times {
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    // .box-header {
+    //     position: relative;
+    //     &::after {
+    //         content: "";
+    //         position: absolute;
+    //         bottom: 0;
+    //         width: 100%;
+    //         border-bottom: 5px solid rgba(210, 208, 208, 0.25);
+    //     }
+    // }
+    span.number,
+    .icon-star {
+        font-size: 3.1rem;
+        font-weight: bold;
+    }
+    span.number {
+        color: #2A42A7;
+    }
+    .icon-star {
+        color: yellow;
+        margin-right: 1rem;
+    }
+}

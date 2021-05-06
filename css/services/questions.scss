@@ -1,0 +1,59 @@
+//ANCHOR questions
+section.question {
+    h1.title {
+        margin-bottom: 1.7rem;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+    .box-card {
+        padding: 0;
+    }
+    .card-header {
+        position: relative;
+        cursor: pointer;
+        background: transparent;
+        border-bottom: none;
+        p.content {
+            font-weight: bold;
+            color: #000;
+            margin: 0;
+        }
+        .box {
+            position: absolute;
+            background: #D6D6D6;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 3%;
+            width: 23px;
+            border-radius: 999px;
+            height: 23px;
+            &::after {
+                position: absolute;
+                top: 12px;
+                transform: translate(-50%, -50%);
+                right: 2px;
+                content: "\f078";
+                font-family: "FontAwesome";
+            }
+        }
+        &.xanh {
+            .box::after {
+                position: absolute;
+                top: 12px;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                right: 2px;
+                /* line-height: 17px; */
+                content: "\f077";
+                font-family: "FontAwesome";
+            }
+        }
+    }
+    .card-bottom {
+        padding: .75rem 1.25rem;
+        p.content {
+            color: #8E8E93;
+        }
+    }
+}

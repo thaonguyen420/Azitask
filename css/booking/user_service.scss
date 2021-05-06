@@ -1,0 +1,35 @@
+.user_services {
+    .box-bottom {
+        border-bottom: 1px solid #D6D6D6;
+    }
+    .box-col:last-child .border-bottom {
+        border-bottom: none;
+    }
+}
+
+.box-left {
+    p.title {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    p.content {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    span {
+        &.number_big {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        &.number_small {
+            font-size: 13px;
+            text-decoration: line-through;
+            color: gray;
+        }
+    }
+}
+
+.box-col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,237 @@
+.box-show_hide {
+  position: absolute;
+  right: 0;
+  z-index: 105;
+  width: 389px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.box-show_hide.show_hidden {
+  opacity: 1;
+  visibility: visible;
+}
+
+.box-customer_review {
+  background: white;
+}
+
+.box-customer_review .box-title {
+  position: relative;
+}
+
+.box-customer_review .box-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid rgba(210, 208, 208, 0.25);
+}
+
+.box-customer_review h4.title-menu_small {
+  margin: 1rem 0rem;
+}
+
+.box-customer_review .box-bar_rate {
+  margin-top: 1rem;
+}
+
+.box-customer_review .box-bar_rate .box-bar {
+  margin-top: .75rem;
+}
+
+.box-customer_review .box-bar_rate .box-bar .text-rate {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.box-customer_review .box-bar_rate .box-bar .bar-rate {
+  width: 100%;
+  height: 7px;
+  background: #d6d6d6;
+  position: relative;
+}
+
+.box-customer_review .box-bar_rate .box-bar .bar-rate:after {
+  content: "";
+  width: 70%;
+  height: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2A42A7;
+}
+
+.box-note--rate {
+  background: transparent;
+  border: .25px solid #E6E7E8;
+  border-radius: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.box-note--rate .text {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.box-note--rate .icon {
+  height: 100%;
+  text-align: center;
+  border-radius: 999px;
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.box-note--rate .icon .bg-note {
+  background: black;
+  border-radius: 999px;
+  color: white;
+  width: 68%;
+  height: 17px;
+  line-height: 17px;
+}
+
+.box-note--rate .icon-star {
+  font-size: 13px;
+}
+
+.box-note--rate button.btn.btn-click_bg {
+  width: 100%;
+  font-size: 11px;
+  height: 26px;
+}
+
+.box-note--rate .item-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 13px;
+}
+
+.box-note--rate .item-rate .icon--star {
+  color: yellow;
+  margin-right: 1rem;
+}
+
+.box-note--rate .item-rate .number_rate {
+  color: #2A42A7;
+}
+
+@media (max-width: 1025px) {
+  .row-1024 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .box-note--rate {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: inherit;
+    padding-left: inherit;
+  }
+  section.box-click h2.title {
+    font-size: 15px;
+  }
+  button.btn.btn-click_bg {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box-show_hide {
+    width: 100%;
+  }
+}
+
+@media (max-width: 541px) {
+  .box-note--rate button.btn.btn-click_bg {
+    width: 40%;
+    float: right;
+  }
+  .box-note--rate .icon .bg-note {
+    width: 31%;
+  }
+  .box-note--rate .item-rate {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .box-note--rate button.btn.btn-click_bg {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 412px) {
+  .box-note--rate button.btn.btn-click_bg {
+    width: 100%;
+  }
+  button.btn.btn-click_bg {
+    font-size: 13px;
+  }
+  .box-note--rate .item-rate {
+    font-size: 17px;
+  }
+  .box-note--rate .icon .bg-note {
+    width: 50%;
+    height: 18px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 800px) {
+  .box-rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .box-note--rate .icon .bg-note {
+    width: 25%;
+  }
+  .box-customer_review .box-bar_rate .box-bar .bar-rate {
+    width: 61%;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-show_hide.show_hidden {
+    top: 0;
+    z-index: 1000;
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+  }
+  .box-customer_review {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 321px) {
+  button.btn.btn-click_bg {
+    font-size: 10px;
+  }
+  .box-note--rate .icon .bg-note {
+    height: 18px;
+    line-height: 18px;
+  }
+}
+/*# sourceMappingURL=custormer_review.css.map */

@@ -1,0 +1,72 @@
+/* section.offer {
+    padding-bottom: 3rem;
+} */
+
+section.offer h1 {
+    color: #000;
+}
+
+section.offer .card_body {
+    padding-top: 2rem;
+}
+
+section.offer .card {
+    border: none;
+    margin-bottom: 3rem;
+}
+
+section.offer .card img {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    width: 100%;
+}
+
+section.offer .card img:hover {
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+section.offer .card .card-body h5.card-title {
+    margin-bottom: 0.25rem;
+}
+
+
+/* ANCHOR 768 */
+
+@media(max-width:768px) {
+    section.care .box-card.box-card--left {
+        display: none;
+    }
+}
+
+
+/* ANCHOR 415 */
+
+@media(max-width:415px) {
+    section.care .box-care.box-care-right .btn-card {
+        font-size: 1rem;
+    }
+    section.offer h5.card-title,
+    section.popular h5.card-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.65rem;
+    }
+    section.offer p.card-text,
+    section.popular p.card-text {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* ANCHOR 281 */
+
+@media(max-width:281px) {
+    section.offer {
+        padding-bottom: 2rem;
+    }
+}
+
+
+/*# sourceMappingURL=best-offer.css.map */

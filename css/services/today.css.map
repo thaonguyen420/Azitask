@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,OADG,AAAA,MAAM,CACT,CAAC,AAAA,WAAW,CAAC;EACT,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,GAAG;CACnB;;AAJL,AAKI,OALG,AAAA,MAAM,CAKT,QAAQ,CAAC;EACL,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "today.scss"
+    ],
+    "names": [],
+    "file": "today.css"
+}

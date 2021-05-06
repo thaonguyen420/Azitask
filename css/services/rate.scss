@@ -1,0 +1,74 @@
+//ANCHOR rate 
+section.rate {
+    margin-top: 7.5rem;
+    .icon-star {
+        // svg {
+        font-size: 2rem;
+        color: #ffeb3b;
+        // margin-left: 0.4rem;
+        // }
+    }
+    .item-rate:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .col-rate,
+    .col-note {
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        justify-content: center;
+        align-items: center;
+        .scroll-bar {
+            width: 100%;
+            height: 10px;
+            background: #d6d6d6;
+            border-radius: 10px;
+            &.rate--5,
+            &.rate--4,
+            &.rate--3,
+            &.rate--2,
+            &.rate--1 {
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 70%;
+                    height: 10px;
+                    border-radius: inherit;
+                    background: #ffeb3b;
+                }
+            }
+            &.rate--4 {
+                &::after {
+                    width: 60%;
+                }
+            }
+            &.rate--3 {
+                &::after {
+                    width: 45%;
+                }
+            }
+            &.rate--2 {
+                &::after {
+                    width: 20%;
+                }
+            }
+            &.rate--1 {
+                &::after {
+                    width: 10%;
+                }
+            }
+        }
+        .rate--color {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    section.rate {
+        margin-top: 0;
+    }
+}

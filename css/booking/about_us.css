@@ -1,0 +1,36 @@
+.about_us .box-rate_us {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.about_us .box-rate_us .box-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.about_us .box-rate_us .box-left .box-icon .icon-star {
+  font-size: 24px;
+}
+
+.about_us .box-rate_us .box-left .box-content {
+  color: #2A42A7;
+}
+
+.about_us .box-rate_us .box-left .box-content p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.about_us .box-rate_us .box-left .box-content span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.about_us .box-rate_us .box-right .icon-right {
+  font-size: 15px;
+}
+/*# sourceMappingURL=about_us.css.map */

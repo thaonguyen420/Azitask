@@ -1,0 +1,136 @@
+section.take h5.card-title {
+  line-height: 23px;
+  font-weight: bold;
+}
+
+section.take p.note {
+  margin-bottom: 0rem;
+}
+
+section.take .rated {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.take .rated .rate .info .svg-inline--fa {
+  color: #2A42A7;
+}
+
+section.take .click {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+section.take .carousel-inner .carousel-item {
+  margin-bottom: 100px;
+}
+
+section.take .carousel-control-next,
+section.take .carousel-control-prev {
+  position: initial;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -ms-flex-pack: center;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  -webkit-transition: opacity .15s ease;
+  transition: opacity .15s ease;
+  color: black;
+  font-size: 20px;
+}
+
+section.take .carousel-control-next-icon,
+section.take .carousel-control-prev-icon {
+  color: black;
+  background-color: black;
+}
+
+section.take .carousel-indicators {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0;
+  margin-left: 0px;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: auto;
+  position: initial;
+}
+
+section.take .carousel-indicators .active {
+  background-color: #2A42A7;
+  color: white;
+}
+
+section.take .carousel-indicators li {
+  text-indent: inherit;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 19px;
+  /* line-height: 42px; */
+  padding: 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 999px;
+  color: #2A42A7;
+  border: 1px solid #2A42A7;
+  background-color: white;
+  margin: 0px 9px;
+  opacity: 1;
+}
+
+section.take .rate {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+section.take .rate img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+section.take .rate .info {
+  width: 80%;
+  padding-left: 15px;
+}
+
+section.take .rate .info p.note {
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+section.take .rate .info .title {
+  font-size: 17px;
+  padding-right: 10px;
+}
+/*# sourceMappingURL=take.css.map */
